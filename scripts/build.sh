@@ -11,11 +11,11 @@ apollo_portal_db_username=root
 apollo_portal_db_password=123456
 
 # meta server url, different environments should have different meta server addresses
-dev_meta=http://192.168.1.161:8761
-fat_meta=http://192.168.1.161:8761
-uat_meta=http://192.168.1.161:8761
-lpt_meta=http://192.168.1.161:8761
-pro_meta=http://192.168.1.161:8761
+dev_meta=http://192.168.1.161:8091
+fat_meta=http://192.168.1.161:8091
+uat_meta=http://192.168.1.161:8091
+lpt_meta=http://192.168.1.161:8091
+pro_meta=http://192.168.1.161:8091
 
 META_SERVERS_OPTS="-Ddev_meta=$dev_meta -Dfat_meta=$fat_meta -Duat_meta=$uat_meta -Dpro_meta=$pro_meta"
 
