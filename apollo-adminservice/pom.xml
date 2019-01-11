@@ -66,6 +66,7 @@
 		</dependency>
 	</dependencies>
 	<build>
+		<finalName>newbie-${project.artifactId}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -99,7 +100,7 @@
 							<goal>single</goal>
 						</goals>
 						<configuration>
-							<finalName>${project.artifactId}-${project.version}-${package.environment}</finalName>
+							<finalName>newbie-${project.artifactId}-${project.version}-${package.environment}</finalName>
 							<appendAssemblyId>false</appendAssemblyId>
 							<descriptors>
 								<descriptor>src/assembly/assembly-descriptor.xml</descriptor>
